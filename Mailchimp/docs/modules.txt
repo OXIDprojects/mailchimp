@@ -1,0 +1,1 @@
+oxuser => agmailchimp/agmailchimp_oxuser

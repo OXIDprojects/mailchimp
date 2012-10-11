@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<OX>    
+	<OXMENU id="NAVIGATION_ESHOPADMIN">
+	    <MAINMENU id="mxuadmin">
+            <SUBMENU id="mxusers" cl="admin_user" list="user_list">
+	    		<TAB id="tbcluser_mailchimp" cl="user_mailchimp"/>
+	    		<BTN id="mailchimp_sync" />
+	    	</SUBMENU>
+	    </MAINMENU>
+	    <MAINMENU id="mxmailchimp">
+            <SUBMENU id="mxmailchimpconfig" cl="mailchimp_configuration" list="mailchimp_configuration_list">
+	    		<TAB id="tbclmailchimpconfig_main" cl="mailchimp_configuration_main"/>
+	    	</SUBMENU>
+	    	<SUBMENU id="mxmailchimpcampaign" cl="mailchimp_campaign" list="mailchimp_campaign_list">
+	    		<TAB id="tbclmailchimpcampaign_main" cl="mailchimp_campaign_main"/>
+	    		<TAB id="tbclmailchimpcampaign_content" cl="mailchimp_campaign_content"/>
+	    		<TAB id="tbclmailchimpcampaign_preview" cl="mailchimp_campaign_preview"/>
+	    		<TAB id="tbclmailchimpcampaign_send" cl="mailchimp_campaign_send"/>
+	    		<BTN id="mailchimp_campaign_new" />
+	    	</SUBMENU>
+	    </MAINMENU>
+    </OXMENU>
+</OX>
